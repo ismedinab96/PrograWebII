@@ -1,0 +1,42 @@
+body{
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.grillas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acordeon h1{
+    text-align: center;
+}
+
+.cards{
+ display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
